@@ -25,7 +25,7 @@ class Order:
         return self.remaining_quantity == 0
     
 @dataclasses.dataclass
-class GoodTillCanceled(Order):
+class GoodTillCancelled(Order):
     pass
 
 @dataclasses.dataclass
